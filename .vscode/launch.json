@@ -1,0 +1,23 @@
+{
+  // Configurações de lançamento para o VS Code - opções para executar o pacote
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Run MecanicoMax as module",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "MecanicoMax.Main",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Run Main file (with PYTHONPATH)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/MecanicoMax/Main.py",
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}" },
+      "console": "integratedTerminal"
+    }
+  ]
+}
