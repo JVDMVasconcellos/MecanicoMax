@@ -35,7 +35,7 @@ class Sedan(Veiculo):
         self.tipo = TipoVeiculo.SEDAN
     
     def get_taxa_manutencao(self) -> float:
-        return 1.0  # Taxa base
+        return 1.0 
 
 
 class SUV(Veiculo):
@@ -44,7 +44,7 @@ class SUV(Veiculo):
         self.tipo = TipoVeiculo.SUV
     
     def get_taxa_manutencao(self) -> float:
-        return 1.3  # 30% mais caro
+        return 1.3  #30% mais caro
 
 
 class Esportivo(Veiculo):
@@ -53,7 +53,7 @@ class Esportivo(Veiculo):
         self.tipo = TipoVeiculo.ESPORTIVO
     
     def get_taxa_manutencao(self) -> float:
-        return 1.8  # 80% mais caro
+        return 1.8  #80% mais caro
 
 
 class Caminhonete(Veiculo):
@@ -62,7 +62,7 @@ class Caminhonete(Veiculo):
         self.tipo = TipoVeiculo.CAMINHONETE
     
     def get_taxa_manutencao(self) -> float:
-        return 1.4  # 40% mais caro
+        return 1.4  #40% mais caro
 
 
 class FabricaVeiculos:

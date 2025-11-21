@@ -18,20 +18,20 @@ def main():
 
     print("\nCADASTRANDO CLIENTES")
     print("-" * 70)
-    cliente1 = oficina.cadastrar_cliente("João Silva", "(19) 98765-4321")
-    cliente2 = oficina.cadastrar_cliente("Maria Santos", "(19) 99876-5432")
+    cliente1 = oficina.cadastrar_cliente("João Victor Vasconcellos", "(19)98765-4321")
+    cliente2 = oficina.cadastrar_cliente("Vitor Carnevalli", "(19)99876-5432")
     
     # Factory Method - Criando diferentes tipos de veículos
     print("\nCADASTRANDO VEÍCULOS")
     print("-" * 70)
     veiculo1 = oficina.cadastrar_veiculo(
-        TipoVeiculo.SEDAN, "ABC-1234", "Honda", "Civic", 2020
+        TipoVeiculo.SEDAN, "NTC-5H67", "Honda", "Civic", 2020
     )
     veiculo2 = oficina.cadastrar_veiculo(
-        TipoVeiculo.SUV, "XYZ-5678", "Toyota", "RAV4", 2021
+        TipoVeiculo.SUV, "GDW-7G89", "Mitsubishi", "Outlander", 2021
     )
     veiculo3 = oficina.cadastrar_veiculo(
-        TipoVeiculo.ESPORTIVO, "SPT-9999", "Porsche", "911", 2022
+        TipoVeiculo.ESPORTIVO, "STI-4D14", "Chevrolet", "Onix RS", 2022
     )
     
     # Strategy - Diferentes estratégias de precificação
